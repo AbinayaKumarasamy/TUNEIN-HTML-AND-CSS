@@ -1,0 +1,36 @@
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .one{
+    color: rgb(10, 249, 249);
+    text-align: center;
+    font-family: cursive;
+    font-size: xx-large;
+  }
+  label{
+    font-size: large;
+  }
+  input{
+    border-radius: 8px;
+    border-color: black; 
+  }
+  .card
+  {
+    margin-top: 10%;
+    margin-left: 550px ;
+    text-align: center;
+    border-radius: 10px;
+    width: 30rem;
+    height: 25rem;
+    color:rgb(5, 14, 21);
+    background-image: url(./mm.jpg);
+  }

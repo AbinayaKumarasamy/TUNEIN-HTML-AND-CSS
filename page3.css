@@ -1,0 +1,23 @@
+body
+{
+font-family: cursive;
+font-size: large;
+background-image: url(./pp.jpg);
+color:navy;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+}
+.card
+  {
+    margin-top: 2%;
+    margin-left: 15% ;
+    text-align: center;
+    border-radius: 20px;
+    width: 60rem;
+    height: 120rem;
+  }
+  #man
+  {
+    margin:20px 10px;
+  }

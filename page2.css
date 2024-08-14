@@ -1,0 +1,50 @@
+body
+{
+    color:aliceblue;
+    background-image: url(./mus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h3{
+    color: aliceblue;
+}
+.audio
+{
+    height:100px;
+    width:200px;
+}
+.card
+{
+    padding:10px;;
+    width: 23rem;
+    height: 30rem;
+}
+.one
+{  
+    padding: 15px;
+}
+#man{
+    margin:20px 200px 800px 400px;
+}
+
+a:link {
+    font-size:large;
+  text-decoration: none;
+  }
+  a:visited {
+  color:darkblue;
+  text-decoration: none;
+  }
+  a:hover {
+  color: green;
+  text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    text-decoration: underline;
+  }
+  .card-img-top{
+    width:400px;
+    height:400px;
+  }

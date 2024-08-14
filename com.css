@@ -1,0 +1,70 @@
+body{
+    text-align:center;
+    color:navy;
+    font-family: cursive;
+    font-size:large;
+}
+h2{
+    color: aliceblue;
+}
+.btn
+{
+    margin:350px 40px;
+}
+ #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+ .comment-box{
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%, -50%);
+     width: 500px;
+ }
+ .comment-box h2 {
+     font-size: 70px;
+     margin-bottom: 50px;
+ }
+ .comment-box input {
+     width: 100%;
+     height: 50px;
+     padding: 0 20px;
+     margin-bottom: 15px;
+     border-radius: 5px;
+     border: 1px solid blue;
+ }
+ .comment-box input:focus{
+     border: 1px solid blue;
+     outline: 0;
+ }
+ .comment-box textarea{
+     width: 100%;
+     height: 250px;
+     padding: 15px 20px;
+     margin-bottom: 10px;
+     border-radius: 5px;
+     border: 1px solid blue;
+ }
+ .comment-box textarea:focus{
+     border: 1px solid blue;
+     outline: 0;
+ }
+ .comment-box button {
+     border: 0;
+     padding: 10px 3opx;
+     background: pink;
+     font-size: 18px;
+     border-radius: 5px;
+     
+ }
+ .comment-box button:hover{
+     background-color: blueviolet;
+ }
